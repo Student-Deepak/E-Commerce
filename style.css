@@ -1,0 +1,98 @@
+
+
+    /* Style of header */
+
+header{
+    padding-top: 1rem;
+    height: 80px;
+    width: 100%;
+    box-shadow: 0px 3px 5px rgb(165, 69, 209);
+    border: 2px solid rgb(76, 8, 76);
+    border-radius: 6px;
+}
+.navContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+li{
+    list-style: none;
+    margin-left: 10px;
+}
+.search{
+    border: 2px solid rgba(0,0,0,0.5);
+    padding: 6px 30px 6px 30px;
+    border-radius: 20px;
+    
+}
+.search input,i{
+    border: none;
+
+}
+input:focus{
+   outline:none;
+}
+.navContainer li{
+    cursor: pointer;
+}
+
+    /* Style of main */
+    
+
+h1{
+    text-align: center;
+    line-height: 50px;
+   
+    
+}
+
+.collection img{
+    height: 400px;
+    width: 300px;
+    border-radius:20px ;
+    margin: 4px 8px 8px 4px;
+}
+.men,.women,.kids,.shoes,.summer,.winter{
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+.summer img,.winter img{
+    
+    height: 500px;
+    width: 400px;
+}
+
+
+
+    /* Style footer */
+
+footer{
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.7);
+    
+
+}
+.ftr-top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0px;
+    line-height: 25px;
+    color: rgb(244, 232, 232);
+    margin: 0px 40px;
+    border-bottom: 2px solid white;
+    
+}
+
+.ftr-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: bisque;
+    padding: 40px 20px;
+}
+.security{
+    margin-left: 40%;
+}
