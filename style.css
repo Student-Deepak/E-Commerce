@@ -9,6 +9,9 @@ header{
     box-shadow: 0px 3px 5px rgb(165, 69, 209);
     border: 2px solid rgb(76, 8, 76);
     border-radius: 6px;
+    background-color: white;
+    position: fixed;
+    
 }
 .navContainer{
     display: flex;
@@ -35,9 +38,16 @@ input:focus{
 .navContainer li{
     cursor: pointer;
 }
+a{
+    text-decoration: none;
+}
+
 
     /* Style of main */
     
+main{
+    padding: 90px;
+}
 
 h1{
     text-align: center;
@@ -95,4 +105,57 @@ footer{
 }
 .security{
     margin-left: 40%;
+}
+
+
+
+    /* Style for Login form */
+
+.form{
+    height: 500px;
+    width: 400px;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding-top: 5%;
+    box-shadow: 5px 5px 10px rgb(193, 89, 201);
+    
+}
+#numb{
+    border: 2px solid rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    margin: 40px 20px;
+    border-radius:20px ;
+}
+#number{
+    border: none;
+}
+.form h2{
+    padding-left: 26%;
+    
+}
+.form button{
+    padding: 10px 40px;
+    border: 2px solid #0046FF;
+    box-shadow: 1px 3px 4px #0046FF;
+    border-radius: 30px;
+
+}
+
+.form button,p{
+    margin: 10px 30px;
+    font-weight: 600;
+}
+
+.log{
+    color: red;
+    text-decoration: underline;
+}
+.btn:hover{
+    background-color: #0046FF;
+    color:white;
+}
+.btn:active{
+    transform: scale(0.98);
 }
