@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clothes S</title>
+    <link rel="icon" href="logo1.png">
+    <title>Anywear online Shopping</title>
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="util.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -12,35 +14,42 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
 <body>
     <!-- nav bar -->
     <header>
         <ul class="navContainer">
-            <li id="icon">logo</li>
-            <li>MEN</li>
-            <li>WOMEN</li>
-            <li>KIDS</li>
-            <li>HOME LIVING</li>
+            <li id="icon"><a href="index.html"><img src="logo.png" alt="logo"></a></li>
+            <li title="Men Wear"><a href="men.html">MEN</a></li>
+            <li title="Women Wear"><a href="women.html">WOMEN</a></li>
+            <li title="Kids Wear"><a href="kids.html">KIDS</a></li>
+            <li title="Home Living Products"><a href="home.html">HOME LIVING</a></li>
             <li class="search">
                 <label for="Search"><i class="fa-solid fa-magnifying-glass"></i></label>
                 <input type="text" placeholder="Search brands" id="Search" value="">
             </li>
             <li title="LogIn/SignUp">
-                 <a href="login.html">
+                <a href="login.html">
                     <div><i class="fa-solid fa-user"></i></div>
                     <div>Profile</div>
                 </a>
-                
+
             </li>
-            <li>
-                <div><i class="fa-regular fa-heart"></i></div>
-                <div>Wishlist</div>
+            <li title="Favourite Items">
+                <a href="">
+                    <div><i class="fa-regular fa-heart"></i></div>
+                    <div>Wishlist</div>
+                </a>
+
             </li>
-            <li>
-                <di><i class="fa-solid fa-bag-shopping"></i></di>
-                <di>Bag</di>
+            <li title="Bucket">
+                <a href="">
+                    <div><i class="fa-solid fa-bag-shopping"></i></div>
+                    <div>Bag</div>
+                </a>
+
             </li>
 
         </ul>
@@ -57,43 +66,131 @@
         <div class="collection">
             <h1>Men Collections</h1>
             <div class="men flexbox">
-                <div><img src="a.avif" alt=""></div>
-                <div><img src="a.avif" alt=""></div>
-                <div><img src="a.avif" alt=""></div>
-                <div><img src="a.avif" alt=""></div>
+                <div>
+                    <img src="/images/men/men1.avif" alt="">
+                    <p>clothes</p>
+                    <p class="price">Rs. 499</p>
+                </div>
+                <div>
+                    <img src="/images/men/men2.avif" alt="">
+                     <p>clothes</p>
+                    <p class="price">Rs. 499</p>
+                </div>
+                <div>
+                     <img src="/images/men/men10.webp" alt="">
+                     <p>clothes</p>
+                    <p class="price">Rs. 499</p>
+                </div>
+                <div>
+                     <img src="/images/men/men9.webp" alt="">
+                     <p>clothes</p>
+                    <p class="price">Rs. 499</p>
+                </div>
             </div>
             <h1>Women Collection</h1>
             <div class="women flexbox">
-                <div><img src="a.avif" alt=""></div>
-                <div><img src="a.avif" alt=""></div>
-                <div><img src="a.avif" alt=""></div>
-                <div><img src="a.avif" alt=""></div>
+                <div>
+                     <img src="/images/women/women1.avif" alt="">
+                     <p>clothes</p>
+                    <p class="price">Rs. 499</p>
+                </div>
+                <div>
+                     <img src="/images/women/women2.avif" alt="">
+                     <p>clothes</p>
+                    <p class="price">Rs. 499</p>
+                </div>
+                <div>
+                     <img src="/images/women/women3.avif" alt="">
+                     <p>clothes</p>
+                    <p class="price">Rs. 499</p>
+                </div>
+                <div>
+                     <img src="/images/women/women14.jpg" alt="">
+                     <p>clothes</p>
+                    <p class="price">Rs. 499</p>
+                </div>
             </div>
             <h1>Kid Collection</h1>
             <div class="kids flexbox">
-                <div><img src="a.avif" alt=""></div>
-                <div><img src="a.avif" alt=""></div>
-                <div><img src="a.avif" alt=""></div>
-                <div><img src="a.avif" alt=""></div>
+                <div>
+                     <img src="/images/kids/kid6.jpg" alt="">
+                     <p>clothes</p>
+                    <p class="price">Rs. 499</p>
+                </div>
+                <div>
+                     <img src="/images/kids/kid7.jpg" alt="">
+                     <p>clothes</p>
+                    <p class="price">Rs. 499</p>
+                </div>
+                <div>
+                     <img src="/images/kids/kid11.jpg" alt="">
+                     <p>clothes</p>
+                    <p class="price">Rs. 499</p>
+                </div>
+                <div>
+                     <img src="/images/kids/kid4.jpg" alt="">
+                     <p>clothes</p>
+                    <p class="price">Rs. 499</p>
+                </div>
             </div>
             <h1>Shoes Collection</h1>
             <div class="shoes flexbox">
-                <div><img src="a.avif" alt=""></div>
-                <div><img src="a.avif" alt=""></div>
-                <div><img src="a.avif" alt=""></div>
-                <div><img src="a.avif" alt=""></div>
+                <div>
+                     <img src="/images/men/menshoe1.avif" alt="">
+                     <p>clothes</p>
+                    <p class="price">Rs. 499</p>
+                </div>
+                <div>
+                     <img src="/images/men/menshoe2.webp" alt="">
+                     <p>clothes</p>
+                    <p class="price">Rs. 499</p>
+                </div>
+                <div>
+                     <img src="/images/women/shoes4.jpg" alt="">
+                     <p>clothes</p>
+                    <p class="price">Rs. 499</p>
+                </div>
+                <div>
+                     <img src="/images/women/shoes5.jpg" alt="">
+                     <p>clothes</p>
+                    <p class="price">Rs. 499</p>
+                </div>
             </div>
             <h1>Summer Wear</h1>
             <div class="summer flexbox">
-                <div><img src="a.avif" alt=""></div>
-                <div><img src="a.avif" alt=""></div>
-                <div><img src="a.avif" alt=""></div>
+                <div>
+                     <img src="/images/men/mensummer2.jpg" alt="">
+                     <p>clothes</p>
+                    <p class="price">Rs. 499</p>
+                </div>
+                <div>
+                     <img src="/images/women/womensummer1.jpg" alt="">
+                     <p>clothes</p>
+                    <p class="price">Rs. 499</p>
+                </div>
+                <div>
+                     <img src="/images/women/womensummer3.jpg" alt="">
+                     <p>clothes</p>
+                    <p class="price">Rs. 499</p>
+                </div>
             </div>
             <h1>Winter Wear</h1>
             <div class="winter flexbox">
-                <div><img src="a.avif" alt=""></div>
-                <div><img src="a.avif" alt=""></div>
-                <div><img src="a.avif" alt=""></div>
+                <div>
+                     <img src="/images/men/winter1.jpg" alt="">
+                     <p>clothes</p>
+                    <p class="price">Rs. 499</p>
+                </div>
+                <div>
+                     <img src="images/men/winter3.jpg" alt="">
+                     <p>clothes</p>
+                    <p class="price">Rs. 499</p>
+                </div>
+                <div>
+                     <img src="images/women/winter2.jpg" alt="">
+                     <p>clothes</p>
+                    <p class="price">Rs. 499</p>
+                </div>
             </div>
         </div>
 
@@ -114,7 +211,7 @@
                     <li>Retutn & Refunds Policy</li>
                 </ul>
             </div>
-            
+
             <div class="2list">
                 <li>Help</li>
                 <li>Track Your Order</li>
@@ -141,14 +238,15 @@
                 <p><span>Visa</span></p>
             </div>
             <div class="card">
-                <p>Master Card</p>
+                <p>Master Card<i class="fa-brands fa-cc-mastercard"></i></p>
+                
             </div>
             <div class="cod">
-                <p>Cash on Delievery</p>
+                <p><i class="fa-solid fa-indian-rupee-sign"></i>Cash on Delievery</p>
             </div>
             <div class="security">
                 <p>Secure System</p>
-                <p>256 BIT</p>
+                <p><i class="fa-solid fa-lock"></i>256 BIT</p>
                 <p>ENCRYPTION</p>
             </div>
         </div>
