@@ -3,16 +3,25 @@
     /* Style of header */
 
 header{
-    padding-top: 1rem;
+    /* padding-top: 1rem; */
     height: 80px;
     width: 100%;
     box-shadow: 0px 3px 5px rgb(165, 69, 209);
-    border: 2px solid rgb(76, 8, 76);
+    /* border: 2px solid rgb(76, 8, 76); */
     border-radius: 6px;
     background-color: white;
     position: fixed;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width:none;
+    scroll-behavior: smooth;
     
 }
+/* 
+header::-webkit-scrollbar {
+    display: none;
+} */
+
 .navContainer{
     display: flex;
     align-items: center;
@@ -21,6 +30,7 @@ header{
 li{
     list-style: none;
     margin-left: 10px;
+    padding: 0px 15px 0px;
 }
 .search{
     border: 2px solid rgba(0,0,0,0.5);
@@ -42,36 +52,62 @@ a{
     text-decoration: none;
 }
 
+#icon img{
+    height: 70px;
+    width: 70px;
+    color: black;
+
+}
+
 
     /* Style of main */
     
 main{
-    padding: 90px;
+    padding-top: 90px;
+    overflow: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
 }
 
 h1{
     text-align: center;
-    line-height: 50px;
+    line-height: 70px;
    
     
 }
 
 .collection img{
-    height: 400px;
+    height: 350px;
     width: 300px;
     border-radius:20px ;
-    margin: 4px 8px 8px 4px;
+    padding: 5px;
+    /* margin: 4px 8px 8px 4px; */
 }
 .men,.women,.kids,.shoes,.summer,.winter{
     justify-content: space-evenly;
     align-items: center;
+    /* overflow: hidden; */
+    /* position: relative;
+    z-index: -1; */
 
 
 }
 .summer img,.winter img{
     
-    height: 500px;
+    height: 440px;
     width: 400px;
+}
+
+.collection>div>div:hover{
+    transition: 0.2s ease-in;
+    box-shadow: -2px -3px 10px black;
+    
+}
+.collection>div>div{
+    line-height: 18px;
+    border: 2px solid black;
+    border-radius: 20px;
+     margin: 4px 8px 8px 4px;
 }
 
 
@@ -79,8 +115,12 @@ h1{
     /* Style footer */
 
 footer{
+    margin-top: 50px;
     width: 100%;
     background-color:rgba(0, 0, 0, 0.7);
+    overflow: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
     
 
 }
@@ -95,6 +135,10 @@ footer{
     border-bottom: 2px solid white;
     
 }
+.ftr-top li{
+    padding: 0px 30px;
+    
+}
 
 .ftr-bottom{
     display: flex;
@@ -103,9 +147,39 @@ footer{
     color: bisque;
     padding: 40px 20px;
 }
+
+.payment span{
+    background-color: white;
+    color:rgba(0, 0, 0, 0.7) ;
+    padding: 2px 3px;
+    
+}
+.verified span{
+    color: white;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: italic;
+}
+.verified p{
+    font-weight: 700;
+    line-height: 17px;
+}
+.card i{
+    font-size: 40px;
+   
+}
+.cod i{
+ font-size: 30px;
+}
+.security i{
+    font-size: 30px;
+}
+
 .security{
     margin-left: 40%;
 }
+
+
 
 
 
@@ -159,3 +233,5 @@ footer{
 .btn:active{
     transform: scale(0.98);
 }
+
+
