@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LogIn</title>
+    <link rel="icon" href="logo1.png">
+    <title>Anywear online Shopping</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="util.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -18,29 +19,35 @@
      <!-- nav bar -->
     <header>
         <ul class="navContainer">
-            <li id="icon">logo</li>
-            <li>MEN</li>
-            <li>WOMEN</li>
-            <li>KIDS</li>
-            <li>HOME LIVING</li>
+            <li id="icon"><a href="index.html"><img src="logo.png" alt="logo"></a></li>
+            <li title="Men Wear"><a href="men.html">MEN</a></li>
+            <li title="Women Wear"><a href="women.html">WOMEN</a></li>
+            <li title="Kids Wear"><a href="kids.html">KIDS</a></li>
+            <li title="Home Living Products"><a href="home.html">HOME LIVING</a></li>
             <li class="search">
                 <label for="Search"><i class="fa-solid fa-magnifying-glass"></i></label>
                 <input type="text" placeholder="Search brands" id="Search" value="">
             </li>
-            <li title="LogIn/SignUp">
-                <a href="login.html">
+            <li title="LogIn/SignUp" id="signup">
+                 <a href="login.html">
                     <div><i class="fa-solid fa-user"></i></div>
                     <div>Profile</div>
                 </a>
                 
             </li>
-            <li>
-                <div><i class="fa-regular fa-heart"></i></div>
-                <div>Wishlist</div>
+            <li title="Favourite Items">
+                <a href="">
+                    <div><i class="fa-regular fa-heart"></i></div>
+                    <div>Wishlist</div>
+                </a>
+                
             </li>
-            <li>
-                <di><i class="fa-solid fa-bag-shopping"></i></di>
-                <di>Bag</di>
+            <li title="Bucket">
+                <a href="">
+                       <div><i class="fa-solid fa-bag-shopping"></i></div>
+                        <div>Bag</div>
+                </a>
+             
             </li>
 
         </ul>
@@ -50,19 +57,72 @@
 
     <main>
         <div class="form">
-            <h1>E-Commerce</h1>
+            <h1>Anywear</h1>
             <h2 class="log">Login or SignUp</h2>
-            <form action="">
+            <form action="index.html">
                 <div id="numb">
                     <label for="number">+91 |</label>
-                    <input type="tel" placeholder="Enter your Number" id="number">
+                    <input type="tel" placeholder="Enter your Number" required id="number">
                 </div>
-                
-                
                 <button class="btn">continue</button>
                 <p>Help</p>
             </form>
         </div>
     </main>
+
+    
+    <!-- footer -->
+
+    <footer>
+        <div class="ftr-top">
+            <div class="1list">
+                <ul>
+                    <li>Shoping</li>
+                    <li>Who We Wre</li>
+                    <li>Join Our Team</li>
+                    <li>We Respect Your Privacy</li>
+                    <li>Fees & Payments</li>
+                    <li>Retutn & Refunds Policy</li>
+                </ul>
+            </div>
+            
+            <div class="2list">
+                <li>Help</li>
+                <li>Track Your Order</li>
+                <li>Return</li>
+                <li>CAncellation</li>
+                <li>Customer Care</li>
+                <li>Payments</li>
+            </div>
+            <div class="3list">
+                <li>Men</li>
+                <li>Women</li>
+                <li>Kids</li>
+                <li>Summer Wear</li>
+                <li>Winter Wear</li>
+            </div>
+        </div>
+        <div class="ftr-bottom">
+            <div class="payment">
+                <p>Payments</p>
+                <p>Net <span>Banking</span></p>
+            </div>
+            <div class="verified">
+                <p>Verified by</p>
+                <p><span>Visa</span></p>
+            </div>
+            <div class="card">
+                <p>Master Card<i class="fa-brands fa-cc-mastercard"></i></p>
+            </div>
+            <div class="cod">
+                <p><i class="fa-solid fa-indian-rupee-sign"></i>Cash on Delievery</p>
+            </div>
+            <div class="security">
+                <p>Secure System</p>
+                <p><i class="fa-solid fa-lock"></i>256 BIT</p>
+                <p>ENCRYPTION</p>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
