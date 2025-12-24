@@ -4,10 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="images/icons/fevicon1.png">
+    <link rel="icon" href="../images/icons/fevicon1.png">
     <title>VESTRO online Shopping</title>
 
-
+    
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -17,25 +17,25 @@
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="util.css">
+        <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../util.css">
 </head>
 
 <body>
     <!-- nav bar -->
     <header>
         <ul class="navContainer">
-            <li id="icon"><a href="index.html"><img src="images/icons/fevicon2.png" alt="logo"></a></li>
-            <li title="Men Wear"><a href="man/men.html">MEN</a></li>
-            <li title="Women Wear"><a href="women/women.html">WOMEN</a></li>
-            <li title="Kids Wear"><a href="kids/kids.html">KIDS</a></li>
-            <li title="Home Living Products"><a href="homeItem/home.html">HOME LIVING</a></li>
+            <li id="icon"><a href="../index.html"><img src="../images/icons/fevicon2.png" alt="logo"></a></li>
+            <li title="Men Wear"><a href="../man/men.html">MEN</a></li>
+            <li title="Women Wear"><a href="../women/women.html">WOMEN</a></li>
+            <li title="Kids Wear" id="kid"><a href="../kids/kids.html">KIDS</a></li>
+            <li title="Home Living Products"><a href="../homeItem/home.html">HOME LIVING</a></li>
             <li class="search">
                 <label for="Search"><i class="fa-solid fa-magnifying-glass"></i></label>
                 <input type="text" placeholder="Search brands" id="Search" value="">
             </li>
             <li title="LogIn/SignUp">
-                <a href="logIn/login.html">
+                <a href="../logIn/login.html">
                     <div><i class="fa-solid fa-user"></i></div>
                     <div>Profile</div>
                 </a>
@@ -59,19 +59,22 @@
         </ul>
     </header>
 
+
+
+
     <!-- main body -->
 
     <main>
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+       <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner slider-images">
                 <div class="carousel-item active" data-bs-interval="2000">
-                    <img src="./images/man slider.png" class="d-block w-100" alt="...">
+                    <img src="../images/man slider.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
-                    <img src="./images/women slider.png" class="d-block w-100" alt="...">
+                    <img src="../images/women slider.png" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item" data-bs-interval="2000">
-                    <img src="./images/kids slider.png" class="d-block w-100" alt="...">
+                    <img src="../images/kids slider.png" class="d-block w-100" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval"
@@ -86,173 +89,172 @@
             </button>
         </div>
         <div class="collection">
-            <h1>Men Collections</h1>
+            <h1>Top Brands, Hot Styles</h1>
             <div class="men flexbox">
                 <div class="card">
-                    <img src="images/men/men1.avif" alt="">
-                    <div class="item-rate">
-                        <p class="price">clothes <br>Rs. 499</p>
-                        <button class="cart-btn">Add to Cart</button>
-                    </div>
-
-                </div>
-                <div class="card">
-                    <img src="images/men/men2.avif" alt="">
+                    <img src="../images/kids/kid16.jpg" alt="">
                     <div class="item-rate">
                         <p class="price">clothes <br>Rs. 499</p>
                         <button class="cart-btn">Add to Cart</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="images/men/men10.webp" alt="">
+                    <img src="../images/kids/kid4.jpg" alt="">
                     <div class="item-rate">
                         <p class="price">clothes <br>Rs. 499</p>
                         <button class="cart-btn">Add to Cart</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="images/men/men9.webp" alt="">
+                    <img src="../images/kids/kid5.jpg" alt="">
+                    <div class="item-rate">
+                        <p class="price">clothes <br>Rs. 499</p>
+                        <button class="cart-btn">Add to Cart</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="../images/kids/kid6.jpg" alt="">
                     <div class="item-rate">
                         <p class="price">clothes <br>Rs. 499</p>
                         <button class="cart-btn">Add to Cart</button>
                     </div>
                 </div>
             </div>
-            <h1>Women Collection</h1>
+            <h1>Top Tier Fashion & Fun</h1>
             <div class="women flexbox">
                 <div class="card">
-                    <img src="images/women/women1.avif" alt="">
+                    <img src="../images/kids/kid8.jpg" alt="">
                     <div class="item-rate">
                         <p class="price">clothes <br>Rs. 499</p>
                         <button class="cart-btn">Add to Cart</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="images/women/women2.avif" alt="">
+                    <img src="../images/kids/kid11.jpg" alt="">
                     <div class="item-rate">
                         <p class="price">clothes <br>Rs. 499</p>
                         <button class="cart-btn">Add to Cart</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="images/women/women3.avif" alt="">
+                    <img src="../images/kids/kid12.jpg" alt="">
                     <div class="item-rate">
                         <p class="price">clothes <br>Rs. 499</p>
                         <button class="cart-btn">Add to Cart</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="images/women/women14.jpg" alt="">
+                    <img src="../images/kids/kid1.jpg" alt="">
                     <div class="item-rate">
                         <p class="price">clothes <br>Rs. 499</p>
                         <button class="cart-btn">Add to Cart</button>
                     </div>
                 </div>
             </div>
-            <h1>Kid Collection</h1>
+            <h1>Gen Z Styles</h1>
             <div class="kids flexbox">
                 <div class="card">
-                    <img src="images/kids/kid6.jpg" alt="">
+                    <img src="../images/kids/gen3.jpg" alt="">
                     <div class="item-rate">
                         <p class="price">clothes <br>Rs. 499</p>
                         <button class="cart-btn">Add to Cart</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="images/kids/kid7.jpg" alt="">
+                    <img src="../images/kids/gen6.jpg" alt="">
                     <div class="item-rate">
                         <p class="price">clothes <br>Rs. 499</p>
                         <button class="cart-btn">Add to Cart</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="images/kids/kid11.jpg" alt="">
+                    <img src="../images/kids/kid14.jpg" alt="">
                     <div class="item-rate">
                         <p class="price">clothes <br>Rs. 499</p>
                         <button class="cart-btn">Add to Cart</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="images/kids/kid4.jpg" alt="">
+                    <img src="../images/kids/kid17.jpg" alt="">
                     <div class="item-rate">
                         <p class="price">clothes <br>Rs. 499</p>
                         <button class="cart-btn">Add to Cart</button>
                     </div>
                 </div>
             </div>
-            <h1>Shoes Collection</h1>
+            <h1>Latest Shoes Collection</h1>
             <div class="shoes flexbox">
                 <div class="card">
-                    <img src="images/men/menshoe1.avif" alt="">
+                    <img src="../images/kids/kidshoe1.jpg" alt="">
                     <div class="item-rate">
                         <p class="price">clothes <br>Rs. 499</p>
                         <button class="cart-btn">Add to Cart</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="images/men/menshoe2.webp" alt="">
+                    <img src="../images/kids/kidshoe2.jpg" alt="">
                     <div class="item-rate">
                         <p class="price">clothes <br>Rs. 499</p>
                         <button class="cart-btn">Add to Cart</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="images/women/shoes4.jpg" alt="">
+                    <img src="../images/kids/kidshoe5.jpg" alt="">
                     <div class="item-rate">
                         <p class="price">clothes <br>Rs. 499</p>
                         <button class="cart-btn">Add to Cart</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="images/women/shoes5.jpg" alt="">
+                    <img src="../images/kids/kidshoe3.jpg" alt="">
                     <div class="item-rate">
                         <p class="price">clothes <br>Rs. 499</p>
                         <button class="cart-btn">Add to Cart</button>
                     </div>
                 </div>
             </div>
-            <h1>Summer Wear</h1>
+            <h1>VESTRO Exclusive Daily Shine</h1>
             <div class="summer flexbox">
                 <div class="card">
-                    <img src="images/men/mensummer2.jpg" alt="">
+                    <img src="../images/kids/gen7.jpg" alt="">
                     <div class="item-rate">
                         <p class="price">clothes <br>Rs. 499</p>
                         <button class="cart-btn">Add to Cart</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="images/women/womensummer1.jpg" alt="">
+                    <img src="../images/kids/kid15.jpg" alt="">
                     <div class="item-rate">
                         <p class="price">clothes <br>Rs. 499</p>
                         <button class="cart-btn">Add to Cart</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="images/women/womensummer3.jpg" alt="">
+                    <img src="../images/kids/kid14.jpg" alt="">
                     <div class="item-rate">
                         <p class="price">clothes <br>Rs. 499</p>
                         <button class="cart-btn">Add to Cart</button>
                     </div>
                 </div>
             </div>
-            <h1>Winter Wear</h1>
+            <h1>More For Child</h1>
             <div class="winter flexbox">
                 <div class="card">
-                    <img src="images/men/winter1.jpg" alt="">
+                    <img src="../images/kids/gen5.jpg" alt="">
                     <div class="item-rate">
                         <p class="price">clothes <br>Rs. 499</p>
                         <button class="cart-btn">Add to Cart</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="images/men/winter3.jpg" alt="">
+                    <img src="../images/kids/gen4.jpg" alt="">
                     <div class="item-rate">
                         <p class="price">clothes <br>Rs. 499</p>
                         <button class="cart-btn">Add to Cart</button>
                     </div>
                 </div>
                 <div class="card">
-                    <img src="images/women/winter2.jpg" alt="">
+                    <img src="../images/kids/gen1.jpg" alt="">
                     <div class="item-rate">
                         <p class="price">clothes <br>Rs. 499</p>
                         <button class="cart-btn">Add to Cart</button>
@@ -261,8 +263,9 @@
             </div>
         </div>
 
-
     </main>
+
+
 
     <!-- footer -->
 
@@ -306,7 +309,6 @@
             </div>
             <div class="master-card">
                 <p>Master Card<i class="fa-brands fa-cc-mastercard"></i></p>
-
             </div>
             <div class="cod">
                 <p><i class="fa-solid fa-indian-rupee-sign"></i>Cash on Delievery</p>
@@ -319,9 +321,8 @@
         </div>
     </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
 </body>
 
 </html>
