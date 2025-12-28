@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href="../images/icons/fevicon1.png">
+    <link rel="icon" href="images/icons/fevicon1.png">
     <title>VESTRO online Shopping</title>
-    
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -16,25 +17,25 @@
         rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
-        <link rel="stylesheet" href="../style.css">
-    <link rel="stylesheet" href="../util.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="util.css">
 </head>
 
 <body>
     <!-- nav bar -->
     <header>
         <ul class="navContainer">
-            <li id="icon"><a href="../index.html"><img src="../images/icons/fevicon2.png" alt="logo"></a></li>
-            <li title="Men Wear"><a href="../man/men.html">MEN</a></li>
-            <li title="Women Wear"><a href="../women/women.html">WOMEN</a></li>
-            <li title="Kids Wear"><a href="../kids/kids.html">KIDS</a></li>
-            <li title="Home Living Products"><a href="../homeItem/home.html">HOME LIVING</a></li>
+            <li id="icon"><a href="index.html"><img src="images/icons/fevicon2.png" alt="logo"></a></li>
+            <li title="Men Wear"><a href="man/men.html">MEN</a></li>
+            <li title="Women Wear"><a href="women/women.html">WOMEN</a></li>
+            <li title="Kids Wear"><a href="kids/kids.html">KIDS</a></li>
+            <li title="Home Living Products"><a href="homeItem/home.html">HOME LIVING</a></li>
             <li class="search">
                 <label for="Search"><i class="fa-solid fa-magnifying-glass"></i></label>
                 <input type="text" placeholder="Search brands" id="Search" value="">
             </li>
-            <li title="LogIn/SignUp" id="signup">
-                <a href="../logIn/login.html">
+            <li title="LogIn/SignUp">
+                <a href="logIn/login.html">
                     <div><i class="fa-solid fa-user"></i></div>
                     <div>Profile</div>
                 </a>
@@ -48,7 +49,7 @@
 
             </li>
             <li title="Bucket">
-                <a href="../cart.html">
+                <a href="cart.html">
                     <div><i class="fa-solid fa-bag-shopping"></i></div>
                     <div>Bag</div>
                 </a>
@@ -58,22 +59,34 @@
         </ul>
     </header>
 
-    <!-- main -->
+    <!-- main body -->
 
-    <main>
-        <div class="form">
-            <h1>VESTRO</h1>
-            <h2 class="log">Login or SignUp</h2>
-            <form action="index.html">
-                <div id="numb">
-                    <label for="number">+91 |</label>
-                    <input type="tel" placeholder="Enter your Number" required id="number">
+    <main class="cart-container">
+
+        <h1 id="cart-head">Your Shopping Bag is Empty</h1>
+
+        <div class="hero-container">
+            <!-- <div class="cart-item-card">
+                <div class="product-image"><img src="/images/home/bed1.jpg" alt=""></div>
+                <div class="product-detail">
+                    <p><b>clothes</b></p>
+                    <p><strong>Rs 200</strong></p>
+                    <p>Quantity : 1 </p>
                 </div>
-                <button class="btn">continue</button>
-            </form>
+                <div class="operations">
+                    <button class="cart-rm-one">-</button>
+                    <button class="cart-add-one">+</button>
+                </div>
+            </div> -->
         </div>
-    </main>
+        <div class="cart-action-btn">
+            <button id="cart-add-items">Add Items</button>
+            <button class="cart-payment">Payment</button>
+            <div class="total-payment">Total : <span>0</span></div>
+        </div>
 
+
+    </main>
 
     <!-- footer -->
 
@@ -117,6 +130,7 @@
             </div>
             <div class="master-card">
                 <p>Master Card<i class="fa-brands fa-cc-mastercard"></i></p>
+
             </div>
             <div class="cod">
                 <p><i class="fa-solid fa-indian-rupee-sign"></i>Cash on Delievery</p>
@@ -128,6 +142,11 @@
             </div>
         </div>
     </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
